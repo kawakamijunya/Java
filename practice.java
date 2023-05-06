@@ -8,10 +8,9 @@ public class practice{
     int x;
     
     x = 11;
-    
-  //int 型の変数 a、b に数値 13、17 を代入し、a、b の値を“a=13,b=17”のように表示するプログラムを作成しなさい。
     System.out.println( "x=" + x );
     
+  //int 型の変数 a、b に数値 13、17 を代入し、a、b の値を“a=13,b=17”のように表示するプログラムを作成しなさい。
     int a;
     int b;
     
@@ -39,7 +38,35 @@ public class practice{
     d /= 2;
     System.out.println( "d=" + d );
     
-
+  //int 型の変数 e、f に任意の数値を代入し、e の値を f に、f の値を e に入れ替えて e と f の値を表示するプログラムを作成しなさい。
+    int e,f,g;
+   
+    e = 11;
+    f = 5;
+   
+    g = e;
+    e = f;
+    f = g;
+   
+    System.out.println( "e=" + e + ",f=" + f );
+   
+  //int 型の変数 h、i に数値 19、23 を代入し、その積を変数 j に代入して j の値を表示するプログラムを作成しなさい。
+    int h,i,j;
+  
+    h = 19;
+    i = 23;
+    j = h * i;
+  
+    System.out.println("j=" + j );
+    
+  //int 型の変数 k に任意の数値を代入し、k を 2 倍、3 倍、4 倍した結果を表示するプログラムを作成しなさい。
+    int k = 5;
+    
+    System.out.println(k * 2);
+    System.out.println(k * 3);
+    System.out.println(k * 4);
+    
+    
   }
 }
 
