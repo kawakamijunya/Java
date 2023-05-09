@@ -66,7 +66,30 @@ public class practice{
     System.out.println(k * 3);
     System.out.println(k * 4);
     
+  //int 型の変数 x に任意の数値を代入し、l を 1 乗、2 乗、3 乗した結果を表示するプログラムを作成しなさい。
+    int l = 3;
+   
+    System.out.println(l);
+    System.out.println(l * l);
+    System.out.println(l * l * l);
     
+  //int 型の変数 n に任意の数値を代入し、x を x より小さい任意の数値で割った商と余りを表示するプログラムを作成しなさい。
+    int n = 11;
+    
+    System.out.println("商=" + (n / 5) + ",余り=" + (n % 5));
+    
+  //int 型の変数 m に任意の数値を代入し、インクリメント演算子、デクリメント演算子を
+  //適用して結果を表示することにより演算子の効果を確認するプログラムを作成しなさい。  
+    int m = 5;
+    
+    m++;
+    System.out.println(m);
+    m--;
+    m--;
+    m--;
+    System.out.println(m);
+  
+   
   }
 }
 
