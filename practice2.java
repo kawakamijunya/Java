@@ -8,6 +8,8 @@ public class practice2{
 
     String  s = br.readLine();
     System.out.println(s);
+    
+  
         
       
   }
